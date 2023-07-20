@@ -18,7 +18,7 @@ For more code samples, have a look at the [DEMO SITE](https://github.com/omishyn
 ## Install
 
 ```
-npm i ngx-material-file-input
+npm i ngx-om-material-file-input
 ```
 
 ## API reference
@@ -26,7 +26,7 @@ npm i ngx-material-file-input
 ### MaterialFileInputModule
 
 ```ts
-import { MaterialFileInputModule } from 'ngx-material-file-input';
+import { MaterialFileInputModule } from 'ngx-om-material-file-input';
 
 @NgModule({
   imports: [
