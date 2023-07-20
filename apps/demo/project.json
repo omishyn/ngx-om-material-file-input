@@ -1,4 +1,6 @@
 {
+  "name": "demo",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/demo/src",
   "projectType": "application",
   "prefix": "app",
@@ -86,7 +88,7 @@
         "scripts": [],
         "assets": ["apps/demo/src/favicon.ico", "apps/demo/src/assets"]
       },
-      "outputs": ["coverage/apps/demo"]
+      "outputs": ["{workspaceRoot}/coverage/apps/demo"]
     }
   },
   "tags": []
