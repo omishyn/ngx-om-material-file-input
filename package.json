@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "nx",
-    "start": "./node_modules/.bin/ng serve",
+    "start": "npx nx serve",
     "clean": "rm -rf dist",
     "build": "ng build",
     "build:lib": "ng-packagr -p libs/material-file-input/ng-package.prod.json && cp README.md dist/material-file-input/",
