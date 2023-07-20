@@ -1,6 +1,6 @@
 {
-  "name": "material-file-input",
-  "version": "4.0.1",
+  "name": "ngx-om-material-file-input",
+    "version": "14.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "nx",
@@ -103,6 +103,6 @@
     "typescript": "4.9.5"
   },
   "engines": {
-    "node": ">=16.13.0"
+    "node": ">=14.20.0 || >=16.13.0"
   }
 }

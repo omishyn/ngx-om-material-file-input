@@ -1,12 +1,12 @@
 {
-  "name": "ngx-material-file-input",
-  "version": "4.0.1",
+  "name": "ngx-om-material-file-input",
+  "version": "14.0.1",
   "license": "MIT",
   "author": {
-    "name": "Jeremy Legros"
+    "name": "Jeremy Legros & O.Mishyn"
   },
   "description": "File input management for Angular Material",
-  "homepage": "https://merlosy.github.io/ngx-material-file-input/",
+  "homepage": "https://github.com/omishyn/ngx-om-material-file-input/",
   "keywords": [
     "angular",
     "material",
@@ -15,18 +15,18 @@
     "mat-form-field"
   ],
   "bugs": {
-    "url": "https://github.com/merlosy/ngx-material-file-input/issues"
+    "url": "https://github.com/omishyn/ngx-om-material-file-input/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/merlosy/ngx-material-file-input"
+    "url": "https://github.com/omishyn/ngx-om-material-file-input"
   },
   "dependencies": {},
   "peerDependencies": {
-    "@angular/cdk": "^14.0.0",
-    "@angular/common": "^14.0.0",
-    "@angular/core": "^14.0.0",
-    "@angular/material": "^14.0.0"
+    "@angular/cdk": ">=14.0.0",
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0",
+    "@angular/material": ">=14.0.0"
   },
   "ngPackage": {
     "lib": {

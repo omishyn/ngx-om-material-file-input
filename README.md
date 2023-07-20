@@ -13,7 +13,7 @@ This project provides :
 * a `FileValidator` with `maxContentSize`, to limit the file size
 * a `ByteFormatPipe` to format the file size in a human-readable format
 
-For more code samples, have a look at the [DEMO SITE](https://merlosy.github.io/ngx-material-file-input)
+For more code samples, have a look at the [DEMO SITE](https://github.com/omishyn/ngx-om-material-file-input)
 
 ## Install
 
