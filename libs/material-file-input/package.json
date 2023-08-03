@@ -1,6 +1,6 @@
 {
   "name": "ngx-om-material-file-input",
-  "version": "14.0.1",
+  "version": "15.0.1",
   "license": "MIT",
   "author": {
     "name": "Jeremy Legros & O.Mishyn"
@@ -23,10 +23,10 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "@angular/cdk": ">=14.0.0",
-    "@angular/common": ">=14.0.0",
-    "@angular/core": ">=14.0.0",
-    "@angular/material": ">=14.0.0"
+    "@angular/cdk": ">=15.0.0",
+    "@angular/common": ">=15.0.0",
+    "@angular/core": ">=15.0.0",
+    "@angular/material": ">=15.0.0"
   },
   "ngPackage": {
     "lib": {
