@@ -1,6 +1,6 @@
 {
   "name": "ngx-om-material-file-input",
-  "version": "15.0.1",
+  "version": "16.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "nx",
@@ -34,7 +34,7 @@
     "workspace-schematic": "./node_modules/.bin/nx workspace-schematic",
     "dep-graph": "./node_modules/.bin/nx dep-graph",
     "help": "./node_modules/.bin/nx help",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points && node ./decorate-angular-cli.js"
+    "postinstall": "node ./decorate-angular-cli.js"
   },
   "private": false,
   "dependencies": {
@@ -52,10 +52,10 @@
     "@ngrx/router-store": "16.0.1",
     "@ngrx/store": "16.0.1",
     "@ngrx/store-devtools": "16.0.1",
-    "@nrwl/angular": "16.9.1",
     "rxjs": "~6.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "0.13.3"
+    "zone.js": "0.13.3",
+    "@nx/angular": "16.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "16.2.4",
@@ -64,15 +64,11 @@
     "@angular-eslint/eslint-plugin": "16.0.3",
     "@angular-eslint/eslint-plugin-template": "16.0.3",
     "@angular-eslint/template-parser": "16.0.3",
-    "@angular/cli": "~15.2.0",
+    "@angular/cli": "~16.2.0",
     "@angular/compiler-cli": "16.2.7",
     "@angular/language-service": "16.2.7",
     "@ngrx/schematics": "16.0.1",
-    "@nrwl/cli": "15.9.4",
-    "@nrwl/eslint-plugin-nx": "16.9.1",
-    "@nrwl/linter": "16.9.1",
     "@nrwl/tao": "16.9.1",
-    "@nrwl/workspace": "16.9.1",
     "@schematics/angular": "16.2.4",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "^2.0.6",
@@ -101,10 +97,12 @@
     "postcss-url": "^10.1.1",
     "prettier": "^2.7.1",
     "ts-node": "10.9.1",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "@nx/workspace": "16.9.1",
+    "@nx/linter": "16.9.1",
+    "@nx/eslint-plugin": "16.9.1"
   },
   "engines": {
     "node": ">=14.20.0 || >=16.13.0"
   }
 }
-

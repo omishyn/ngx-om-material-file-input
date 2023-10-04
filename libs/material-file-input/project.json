@@ -27,7 +27,7 @@
       "outputs": ["{workspaceRoot}/coverage/libs/material-file-input"]
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
+      "executor": "@nx/linter:eslint",
       "options": {
         "lintFilePatterns": ["libs/material-file-input/src/**/*.ts", "libs/material-file-input/src/**/*.html"]
       }
